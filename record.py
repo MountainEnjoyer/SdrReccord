@@ -46,7 +46,7 @@ freqs, power_db = avg_spectrum(samples, fs)
 ax1.plot(freqs / 1e3, power_db)
 ax1.set_xlabel("Frequency (kHz)", loc="right")
 ax1.set_ylabel("Power (dB)")
-ax1.set_title("Before")
+ax1.set_title("Frequencies")
 ax1.grid(True)
 
 plt.show()
